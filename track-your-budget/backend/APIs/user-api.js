@@ -159,7 +159,7 @@ userapp.patch('/set-daily-budget/:username', verifyToken, expressAsyncHandler(as
 }));
 
 
-
+//okay
 
 
 userapp.put('/set-weekly-budget/:username', verifyToken, expressAsyncHandler(async (req, res) => {
