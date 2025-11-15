@@ -13,7 +13,7 @@ userapp.use((req, res, next) => {
   next()
 })
 //triggering testingsss
-//create a user
+//create a userrrr
 userapp.post('/user', expressAsyncHandler(async (req, res) => {
   let usercred = req.body;
   let existuser = await userscollection.findOne({ username: usercred.username })
